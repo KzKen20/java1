@@ -30,6 +30,21 @@ public class slay {
                  }  
          }
     }
+    
+    public static int StringSearch(String []arr,String target){
+        int n = arr.length;
+        for(int i = 0; i<n;i++){
+            if(arr[i].equalsIgnoreCase(target) ){
+                return i;
+
+            }
+
+
+        }
+        return -1;
+
+    }
+    
 
     public static void main(String[] args) {
         //use *INT* arr[] for the product amount input
